@@ -1,0 +1,22 @@
+{
+    "name": "lru-cache.js",
+    "version": "1.0.0",
+    "description": "A simple in-memory LRU cache",
+    "author": {
+        "name": "Alex Lau"
+    },
+    "license": "MIT",
+    "keywords": [
+        "lru-cache",
+        "cache"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cfal/lru-cache.js"
+    },
+    "devDependencies": {
+        "gulp": "*",
+        "gulp-coffee": "*",
+        "gulp-uglify": "*"
+    }
+}
