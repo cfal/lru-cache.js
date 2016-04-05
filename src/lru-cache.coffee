@@ -52,4 +52,14 @@ class LRUCache
     
     rawDict: => @_data
 
+    delete: (key) =>
+        i = @_keys.indexOf key
+        return false if i < 0
+        @_keys.splice i, 1
+        delete @_data[key]
+        return true
+
+    contains: (key) =>
+        return key of @_data
+
 module.exports = LRUCache

@@ -1,7 +1,7 @@
 {
     "name": "lru-cache.js",
     "version": "1.0.0",
-    "description": "A simple in-memory LRU cache",
+    "description": "A simple in-memory LRU cache with no dependencies",
     "author": {
         "name": "Alex Lau"
     },
